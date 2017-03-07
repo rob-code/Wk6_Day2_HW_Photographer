@@ -1,0 +1,14 @@
+Implement a Photographer class that has an ArrayList of cameras
+Create addCamera and removeCamera methods
+Create a Camera interface that has one method - printDetails (prints the details of the camera e.g. shutter speed etc.)
+Remember the implementation of the method should be in the implementing classes not the interface
+Create a DigitalCamera class and an AnalogueCamera that implement the Camera interface
+Give the Photographer the ablity to print out all the details of his camera collection
+
+Extension:
+
+Add a HashMap "journal" to the Photographer with a key for the day and a numberOfPhotos for the count
+Remember:
+
+To use a TDD approach - tests first
+Commit to Git
