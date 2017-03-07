@@ -38,10 +38,17 @@ public class PhotographerTest{
   public void printOutListOfCameras(){
     photographer.addCamera(digitalCamera);
     photographer.addCamera(analogueCamera);
-
     photographer.printCameraList();
-
   }
+
+  @Test
+  public void canRecordValuesInJournal(){
+    photographer.addJournalEntry("7/3/2017", 23);
+    photographer.addJournalEntry("12/1/2016", 120);
+    photographer.printJournalEntries();
+  }
+
+
 
 }
 
