@@ -1,7 +1,10 @@
-public class DigitalCamera implements Camera{
+class DigitalCamera implements Camera{
 
 
+  public String printDetails(){
+    return "I'm digital";
 
+  }
 
 
 

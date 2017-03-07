@@ -1,5 +1,9 @@
-public class AnalgueCamera implements Camera{
+class AnalogueCamera implements Camera{
 
 
+  public String printDetails(){
+
+    return "I'm analogue";
+  }
 
 }
