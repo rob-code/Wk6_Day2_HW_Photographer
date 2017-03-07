@@ -34,7 +34,14 @@ public class PhotographerTest{
     assertEquals(1, photographer.numberOfCameras());
   }
 
+  @Test
+  public void printOutListOfCameras(){
+    photographer.addCamera(digitalCamera);
+    photographer.addCamera(analogueCamera);
 
+    photographer.printCameraList();
+
+  }
 
 }
 

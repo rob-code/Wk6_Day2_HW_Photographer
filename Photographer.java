@@ -20,6 +20,13 @@ public void removeCamera(){
     cameras.remove(numberOfCameras()-1);
 }
 
+public void printCameraList(){
+  String details = "";
+  for (Camera camera : cameras){
+    details = camera.printDetails();
+    System.out.println(details);
+  }
+}
 
 
 
